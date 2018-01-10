@@ -1,5 +1,5 @@
 function I_multilook = f_multilooking(I,az_look,rg_look)
-    % This fucnction applies averaging pooling to the input image
+    % This fucnction applies average pooling to the input image
     % In radar imaging community, this is called 'multilooking'
     % INPUTS:
     %   I:          2D matrix, input SAR intensity image
