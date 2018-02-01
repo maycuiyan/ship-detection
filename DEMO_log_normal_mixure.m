@@ -7,7 +7,7 @@ clear;
 close all;
 
 %% load sample image
-load('radarsat2-tj.mat')
+load('./data/radarsat2-tj.mat')
 
 %% do multi-looking to increase SCR
 I_multilook = f_multilooking(I, 2, 2);
